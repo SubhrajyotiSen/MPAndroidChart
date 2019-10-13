@@ -3,6 +3,8 @@ package com.github.mikephil.charting.data;
 
 import android.graphics.Color;
 
+import androidx.annotation.ColorInt;
+
 import com.github.mikephil.charting.interfaces.datasets.IBarLineScatterCandleBubbleDataSet;
 
 import java.util.List;
@@ -32,11 +34,12 @@ public abstract class BarLineScatterCandleBubbleDataSet<T extends Entry>
      *
      * @param color
      */
-    public void setHighLightColor(int color) {
+    public void setHighLightColor(@ColorInt int color) {
         mHighLightColor = color;
     }
 
     @Override
+    @ColorInt
     public int getHighLightColor() {
         return mHighLightColor;
     }
