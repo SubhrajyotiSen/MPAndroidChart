@@ -1,4 +1,4 @@
-![banner](https://raw.github.com/SubhrajyotiSen/MPChart/master/design/feature_graphic_smaller.png)
+![banner](https://raw.github.com/PhilJay/MPChart/master/design/feature_graphic_smaller.png)
 
 [![Release](https://img.shields.io/github/release/SubhrajyotiSen/MPAndroidChart.svg?style=flat)](https://jitpack.io/#PhilJay/MPAndroidChart)
 
